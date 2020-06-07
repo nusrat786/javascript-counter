@@ -1,0 +1,46 @@
+body{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url('image/cover1.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: capitalize;
+}
+
+.counter-box{
+	flex: 0 0 70%;
+	text-align: center;
+	border: 3px solid grey;
+	padding: 10px;
+	font-weight: bold;
+	box-shadow: 3px 3px 10px 10px black;
+}
+
+.counter{
+	font-size: 60px;
+}
+
+.btn{
+	background: #fff;
+	border-radius: 8px;
+	font-size: 20px;
+	padding: 10px;
+	margin: 10px 5px;
+	border: 3px solid #f15025;
+	box-shadow: 0px 5px #001221;
+	outline: none;
+}
+
+.btn:hover{
+	background-color: #4caf50;
+	color: #fff;
+}
+
+.btn:active{
+	box-shadow: none;
+}
